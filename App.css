@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+    background: #FAFBFC;
+}
+
+#root,
+.App {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~  left Wrapper  */
+
+.leftWrapper {
+    float: left;
+    width: 280px;
+    height: 100vh;
+    padding: 30px;
+    background: #fff;
+}
+
+.leftWrapper:hover {
+    overflow: auto;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~  left Wrapper light scroll  */
+
+.leftWrapper::-webkit-scrollbar {
+    width: 7px;
+}
+
+.leftWrapper::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.leftWrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 3px solid #fff;
+    background: #ccc;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~  content Wrapper  */
+
+.contentWrapper {
+    float: left;
+    width: calc(100% - 340px);
+    height: calc(100% - 60px);
+    margin: 30px 0 30px 30px;
+    background: #fff;
+}
+
+.contentWrapper:hover {
+    overflow: auto;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~  left Wrapper light scroll  */
+
+.contentWrapper::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contentWrapper::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.contentWrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 3px solid #fff;
+    background: #ccc;
+}

@@ -1,0 +1,142 @@
+.nav {
+    float: left;
+    width: 100%;
+}
+
+.nav h4 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.nav>ul {
+    float: left;
+    width: 100%;
+    margin: 0 0 100px;
+    padding: 0;
+}
+
+.nav>ul li {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.nav>ul li a {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272727;
+    padding: 0 0 0 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s linear 0s;
+}
+
+.nav>ul li.currentItem a,
+.nav>ul li a:hover {
+    color: #226CFC;
+}
+
+.navInbox {
+    background: url("images/iconInbox.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navInbox,
+.navInbox:hover {
+    background: url("images/iconInboxBlue.png") no-repeat 0 center/16px;
+}
+
+.navSent {
+    background: url("images/iconSent.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navSent,
+.navSent:hover {
+    background: url("images/iconSentBlue.png") no-repeat 0 center/16px;
+}
+
+.navDrafts {
+    background: url("images/iconDrafts.png") no-repeat 0 center/16px;
+}
+
+li.currentItem li.currentItem .na,
+li.currentItem .navDrafts,
+.navDrafts:hover {
+    background: url("images/iconDraftsBlue.png") no-repeat 0 center/16px;
+}
+
+.navDeleted {
+    background: url("images/iconDeleted.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navDeleted,
+.navDeleted:hover {
+    background: url("images/iconDeletedBlue.png") no-repeat 0 center/16px;
+}
+
+.navFavourite {
+    background: url("images/iconFavourite.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navFavourite,
+.navFavourite:hover {
+    background: url("images/iconFavouriteBlue.png") no-repeat 0 center/16px;
+}
+
+.navAnalytics {
+    background: url("images/iconAnalytics.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navAnalytics,
+.navAnalytics:hover {
+    background: url("images/iconAnalyticsBlue.png") no-repeat 0 center/16px;
+}
+
+.navSettings {
+    background: url("images/iconSettings.png") no-repeat 0 center/16px;
+}
+
+li.currentItem .navSettings,
+.navSettings:hover {
+    background: url("images/iconSettingsBlue.png") no-repeat 0 center/16px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~  button  */
+
+.btn {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    clear: left;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s linear 0s;
+}
+
+.btnBlue {
+    color: #fff;
+    background: #226CFC;
+}
+
+.btnBlue:hover {
+    background: #0A53E0;
+}
+
+.btnNormal {
+    color: #226CFC;
+    background: #E8F0FF;
+}
+
+.btnNormal:hover {
+    background: #DBE5F9;
+}
